@@ -23,7 +23,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 33
 
     compileOptions {
         sourceCompatibility 1.8
@@ -31,8 +31,8 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 29
+        minSdkVersion 29
+        targetSdkVersion 33
     }
 }
 
